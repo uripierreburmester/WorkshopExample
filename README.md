@@ -7,6 +7,10 @@
 
 A small github repo used as an example for the coding workshop!
 
+### [Access the online doco here!](http://samreay.github.io/WorkshopExample)
+
+-----------
+
 To use this framework you will need to:
 
 
