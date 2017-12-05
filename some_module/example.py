@@ -14,6 +14,8 @@ def add_stuff(a, b):
         the sum of the two inputs
     """
     c = a + b
+    print("useless print")
+    print("useless print2")
     return c
 
 
