@@ -8,6 +8,6 @@
  Also note that members without documentation (such as :code:`untested_subtract` do not appear in the doco).
 
  """
-from some_module.code import integrate_trapz
+from .code import integrate_trapz
 
 __all__ = ['integrate_trapz']
