@@ -13,7 +13,8 @@ def add_stuff(a, b):
     numeric
         the sum of the two inputs
     """
-    return a + b
+    c = a + b
+    return c
 
 
 def untested_subtract(a, b):
