@@ -4,11 +4,10 @@ import pytest
 from some_module import integrate_trapz
 
 
-# Test basic linear function is perfectly recovered
-# There are plenty more tests we could write though!
+# Testing the zero case. Plenty of other tests to write!
 def test_integrate_trapz_1():
-    xs, ys = np.linspace(0, 10, 11), np.linspace(0, 10, 11)
-    assert integrate_trapz(xs, ys) == 50
+    xs, ys = np.linspace(0, 10, 10), np.zeros(10)
+    assert integrate_trapz(xs, ys) == 0
 
 
 # Testing too much - ensuring it fails on weird input
