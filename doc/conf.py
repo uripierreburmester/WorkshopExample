@@ -54,8 +54,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'some_module'
-copyright = '2017, Samuel Hinton'
-author = 'Samuel Hinton'
+copyright = '2017, Uri Pierre Burmester'
+author = 'Uri Pierre Burmester'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
