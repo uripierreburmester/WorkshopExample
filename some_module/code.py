@@ -1,12 +1,13 @@
 import numpy as np
 
 
-# def extract_sentence_containing_word(paragraph, word):
-#     """ Document and test me"""
-#     sentences = paragraph.split(".")
-#     selected = [s.strip() for s in sentences if word in s]
-#     return selected
+ def extract_sentence_containing_word(paragraph, word):
+     """ Document and test me"""
+     sentences = paragraph.split(".")
+     selected = [s.strip() for s in sentences if word in s]
+     return selected
 
+#test commit to test the .yml file and such
 
 def integrate_trapz(xs, ys):
     """ Document and test me"""
